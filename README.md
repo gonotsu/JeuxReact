@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# 🎮 Collection de Jeux React Native
+Une collection de mini-jeux développés avec React Native,
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 📱 Jeux Disponibles
 
-1. Install dependencies
+### 1. ⚔️ Faritany
+Jeu de stratégie territoriale où le but est d'encercler et capturer les points adverses.
 
-   ```bash
-   npm install
-   ```
+**Fonctionnalités :**
+- Plateau de jeu avec points positionnés
+- Mécanique d'encerclement : entourez les points adverses avec vos points pour les capturer
+- Mode 2 joueurs ou contre l'IA
+- Système de score et progression
+- Animations de capture
 
-2. Start the app
+**Objectif :** Encercler les points adverses avec vos propres points pour les capturer et dominer le territoire.
 
-   ```bash
-   npx expo start
-   ```
+### 2. 🧩 EMOJI ROUTER
+Jeu de connexion où le joueur place des paires d'emojis et le programme trouve automatiquement le chemin pour les relier.
 
-In the output, you'll find options to open the app in a
+**Fonctionnalités :**
+- Grille 12x12
+- Placement de paires d'emojis par tap
+- Algorithme de recherche de chemin automatique
+- Calcul des connexions entre les paires
+- Résolution automatique possible
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Objectif :** Placer les paires d'emojis, le programme calcule et affiche les chemins qui les relient.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 3. 🎲 Fanorona Sivy
+Version avancée du Fanorona sur une grille 5x5 avec captures multiples.
 
-## Get a fresh project
+**Fonctionnalités :**
+- Plateau 9x5
+- Mécanique de captures (approche/retrait)
+- IA avec stratégie minimax
+- Mode 2 joueurs
 
-When you're ready, run:
+### 4. 🎯 Fanorona Telo
+Version simplifiée du Fanorona sur une grille 3x3.
+
+**Fonctionnalités :**
+- Plateau 3x3
+- Phase de placement et de mouvement
+- Mode 2 joueurs ou contre l'IA
+
+### 5. 🎨 Couleur Match
+Jeu de mémoire où le joueur doit sélectionner 4 cellules de la même couleur.
+
+### 6. 🔢 Number Puzzle
+Puzzle numérique avec rotations de blocs 2x2.
+
+### 7. 🧠 Emoji Memory
+Jeu de mémoire où le joueur doit deviner si un emoji est présent dans la grille.
+
+## 🏗️ Architecture
+src/
+├── domain/ # Modèles et constantes
+├── usecases/ # Logique métier pure
+├── components/ # Composants UI
+├── screens/ # Écrans avec état
+└── App/index.tsx # Point d'entrée
+
+
+## 🚀 Installation
 
 ```bash
-npm run reset-project
-```
+# Cloner le dépôt
+git clone https://github.com/gonotsu/JeuxReact.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Installer les dépendances
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Lancer l'application
+npm start
+npm run ios    # Pour iOS
+npm run android # Pour Android
