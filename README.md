@@ -1,10 +1,10 @@
-# 🎮 Collection de Jeux React Native
+# Collection de Jeux React Native
 Une collection de mini-jeux développés avec React Native,
 
 
-## 📱 Jeux Disponibles
+## Jeux Disponibles
 
-### 1. ⚔️ Faritany
+### 1. Faritany
 Jeu de stratégie territoriale où le but est d'encercler et capturer les points adverses.
 
 **Fonctionnalités :**
@@ -16,7 +16,7 @@ Jeu de stratégie territoriale où le but est d'encercler et capturer les points
 
 **Objectif :** Encercler les points adverses avec vos propres points pour les capturer et dominer le territoire.
 
-### 2. 🧩 EMOJI ROUTER
+### 2. EMOJI ROUTER
 Jeu de connexion où le joueur place des paires d'emojis et le programme trouve automatiquement le chemin pour les relier.
 
 **Fonctionnalités :**
@@ -28,7 +28,7 @@ Jeu de connexion où le joueur place des paires d'emojis et le programme trouve 
 
 **Objectif :** Placer les paires d'emojis, le programme calcule et affiche les chemins qui les relient.
 
-### 3. 🎲 Fanorona Sivy
+### 3.Fanorona Sivy
 Version avancée du Fanorona sur une grille 5x5 avec captures multiples.
 
 **Fonctionnalités :**
@@ -37,7 +37,7 @@ Version avancée du Fanorona sur une grille 5x5 avec captures multiples.
 - IA avec stratégie minimax
 - Mode 2 joueurs
 
-### 4. 🎯 Fanorona Telo
+### 4. Fanorona Telo
 Version simplifiée du Fanorona sur une grille 3x3.
 
 **Fonctionnalités :**
@@ -45,16 +45,16 @@ Version simplifiée du Fanorona sur une grille 3x3.
 - Phase de placement et de mouvement
 - Mode 2 joueurs ou contre l'IA
 
-### 5. 🎨 Couleur Match
+### 5.Couleur Match
 Jeu de mémoire où le joueur doit sélectionner 4 cellules de la même couleur.
 
-### 6. 🔢 Number Puzzle
+### 6.Number Puzzle
 Puzzle numérique avec rotations de blocs 2x2.
 
-### 7. 🧠 Emoji Memory
+### 7. Emoji Memory
 Jeu de mémoire où le joueur doit deviner si un emoji est présent dans la grille.
 
-## 🏗️ Architecture
+## Architecture
 src/
 ├── domain/ # Modèles et constantes
 ├── usecases/ # Logique métier pure
@@ -63,7 +63,7 @@ src/
 └── App/index.tsx # Point d'entrée
 
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Cloner le dépôt
